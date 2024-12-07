@@ -10,13 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
     
     <header>
 
-        <div class="h1">
+        <div data-aos="fade-down" class="h1">
 
             <h1 class="H1">Pirate's</h1>
             <h2 class="h1Rep">Island</h2>
@@ -50,50 +51,143 @@
 
         <div class="main">
           <div class="mainbg">
-                <li class="storeLinks"><a href="https://apps.apple.com/us/app/spaces-follow-businesses/id1099748482"><img src="apple.png"></a></li>
-                <li class="storeLinks"><a href="https://play.google.com/store/apps/details?id=com.wix.android&hl=en&gl=US"><img src="Google play.png"></a></li>
+                <li class="storeLinks"><a href="https://apps.apple.com/us/app/spaces-follow-businesses/id1099748482"><img src="apple.png" alt="a"></a></li>
+                <li class="storeLinks"><a href="https://play.google.com/store/apps/details?id=com.wix.android&hl=en&gl=US"><img src="Google play.png" alt="b"></a></li>
           </div>
 
           <div class="line"></div>
 
+          
           <div class="parent">
-          <div class="parent1">
-            <img class="phonecase" src="phone case.png">
-              <div id="carouselExampleFade" class="carousel slide carousel-fade">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="carousel 1.png" class="carouselImg d-block w-100">
+            <div class="parent1">
+              <img data-aos="fade-up" class="phonecase" src="phone case.png">
+                <div data-aos="fade-up" id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="carousel 1.png" class="carouselImg d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="carousel 2.png" class="carouselImg carouselImg1 d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="carousel 3.png" class="carouselImg carouselImg2 d-block w-100">
+                      </div>
                     </div>
-                    <div class="carousel-item">
-                      <img src="carousel 2.png" class="carouselImg carouselImg1 d-block w-100">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="carousel 3.png" class="carouselImg carouselImg2 d-block w-100">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <img data-aos="fade-left" id="skull" src="./skull.png" alt="skull">
               </div>
-            </div>
-            <div class="parent2">
-              <div class="mainText">
-                <h2 class="mainH2">Discover Pirate's Island</h2>
-                <p class="mainP">A one-of-a-kind game that offers endless excitement at your fingertips. Play solo, challenge a friend, and race against the clock to unlock new levels.</p>
-                <div class="links2">
-                  <li class="storeLinks2"><a href="https://apps.apple.com/us/app/spaces-follow-businesses/id1099748482"><img src="apple.png"></a></li>
-                  <li class="storeLinks2"><a href="https://play.google.com/store/apps/details?id=com.wix.android&hl=en&gl=US"><img src="Google play.png"></a></li>
+              <div class="parent2">
+                <div class="mainText">
+                  <h2 data-aos="fade-down" class="mainH2">Discover Pirate's Island</h2>
+                  <p data-aos="fade-down" class="mainP">A one-of-a-kind game that offers endless excitement at your fingertips. Play solo, challenge a friend, and race against the clock to unlock new levels.</p>
+                  <div data-aos="fade-up" class="links2">
+                    <li class="storeLinks2"><a href="https://apps.apple.com/us/app/spaces-follow-businesses/id1099748482"><img src="apple.png"></a></li>
+                    <li class="storeLinks2"><a href="https://play.google.com/store/apps/details?id=com.wix.android&hl=en&gl=US"><img src="Google play.png"></a></li>
+                  </div>
                 </div>
               </div>
             </div>
+              <div data-aos="fade-down" class="reviews">
+                <h2 class="revH2">Ratings & Reviews</h2>
+              </div>
+              <div data-aos="fade-down" class="rrs">
+                <div class="container">
+                  <div class="circle">
+                    <div class="circleX circle1"><img src="./rev1.png"></div>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="circle">
+                    <div class="circleX circle2"><img src="./rev2.png"></div>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="circle">
+                    <div class="circleX circle3"><img src="./rev3.png"></div>
+                  </div>
+                </div>
+                <div class="textContainer">
+                <div class="text">
+                  <h2>Joan West</h2>
+                  <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
+                  <div class="stars">
+                    <img class="star" src="./star.png" alt="star">
+                    <img class="star" src="./star.png" alt="star">
+                    <img class="star" src="./star.png" alt="star">
+                    <img class="star" src="./star.png" alt="star">
+                    <img class="star" src="./star.png" alt="star">
+                  </div>
+                  4/5 Rating
+                </div>
+                </div>
+
+                <div class="textContainer">
+                <div class="text">
+                  <h2>Laura Branson</h2>
+                  <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</p>
+                  <div class="stars">
+                    <img class="star" src="./star.png" alt="star">
+                    <img class="star" src="./star.png" alt="star">
+                    <img class="star" src="./star.png" alt="star">
+                    <img class="star" src="./star.png" alt="star">
+                    <img class="star" src="./star.png" alt="star">
+                  </div>
+                  5/5 Rating
+                </div>
+                </div>
+
+                <div class="textContainer">
+                <div class="text">
+                  <h2>Zach Stallon</h2>
+                  <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
+                  <div class="stars">
+                    <img class="star" src="./star.png" alt="star">
+                    <img class="star" src="./star.png" alt="star">
+                    <img class="star" src="./star.png" alt="star">
+                    <img class="star" src="./star.png" alt="star">
+                    <img class="star" src="./star.png" alt="star">
+                  </div>
+                  <p>5/5 Rating</p>
+                </div>
+                </div>
+                </div>
+                <div data-aos="fade-down" class="pictures">
+                  <div data-aos="fade-down" class="texts2">
+                  <h2 class="H22">Set Sail on an Adventure</h2>
+                  <p class="P2">Game Level Maps</p>
+                  </div>
+                  <div class="images">
+                  <img class="islandd" src="./island1.png" alt="island1">
+                  <img class="islandd" src="./island2.png" alt="island2">
+                  <img class="islandd" src="./island3.png" alt="island3">
+                  </div>
+                </div>
+                <img class="line2" src="./inverted line.png">
+              </div>
           </div>
+        </div>
+
+        <div class="mainbg2">
+          <div class="imgtext">
+            <img src="./sword.png" alt="sword">
           </div>
-            
+
+          <div class="imgtext">
+            <img src="./map.png" alt="map">
+          </div>
+
+          <div class="imgtext">
+            <img>
+          </div>
+
         </div>
 
     </main>
@@ -101,6 +195,10 @@
     <footer id="foot"></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>

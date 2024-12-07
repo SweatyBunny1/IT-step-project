@@ -130,7 +130,7 @@ a{
 
 main{
     width: 100%;
-    height: 200vh;
+    height: 500vh;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -141,7 +141,7 @@ main{
     border-top-left-radius: 50px 50px;
     border-top-right-radius: 50px 50px;
     width: 90%;
-    height: 200vh;
+    height: 370vh;
     margin-top: 10px;
     background-color: white;
 }
@@ -158,6 +158,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 200px;
     gap: 20px;
 }
 
@@ -179,7 +180,7 @@ main{
     background-image: url(line.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -100px;
+    background-color: #2e69ff;
 }
 
 #carouselExampleFade{
@@ -270,3 +271,140 @@ main{
     text-decoration: none;
     list-style-type: none;
 }
+
+#skull{
+    position: absolute;
+    margin-bottom: -130px;
+    margin-right: -50px;
+    z-index: 3;
+}
+
+.revH2{
+    color: #ff5f2e;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.reviews{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.rrs{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.circle{
+    width: 241px;
+    height: 241px;
+    border-radius: 100%;
+    background-color: #2e69ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circleX{
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle1{
+    background-color: #ffc8b8;
+}
+
+.circle2{
+    background-color: #b9cdff;
+}
+
+.circle3{
+    background-color: #e7a5f6;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.textContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star{
+    width: 40px;
+    height: 40px;
+}
+
+.islandd{
+    width: 240px;
+    height: 450px;
+    border-radius: 30px;
+}
+
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.texts2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.H22{
+    color: #ff5f2e;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.P2{
+    font-size: 25px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #2e69ff;
+}
+
+.images{
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line2{
+    width: 100%;
+    margin-bottom: -320px;
+}
+
