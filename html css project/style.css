@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2e69ff
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #2e69ff;
+}
+
+.pirateCoin{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -200px;
+    margin-right: 220px;
+}
+
+.h1{
+    position: absolute;
+    top: 80px;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+    background-image: url(squre\ logo.png);
+    background-repeat: no-repeat;
+    background-size: 450px;
+}
+
+.H1{
+    margin-bottom: -10px;
+    font-size: 95px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #2e69ff;
+}
+
+.H2{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.h1Rep{
+    color: #ff5f2e;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 90px;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    color: white;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+.right{
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.liLogos{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+a{
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.contact{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+main{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #2e69ff;
+}
+
+.main{
+    border-top-left-radius: 50px 50px;
+    border-top-right-radius: 50px 50px;
+    width: 90%;
+    height: 200vh;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.mainbg{
+    width: 100%;
+    height: 75vh;
+    background-image: url(island\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 50px 50px;
+    border-top-right-radius: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.storeLinks{
+    margin-bottom: 220px;
+    width: 130px;
+    height: 40px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.store{
+    text-decoration: none;
+}
+
+.line{
+    width: 100%;
+    height: 12vh;
+    background-image: url(line.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -100px;
+}
+
+#carouselExampleFade{
+    width: 32%;
+    margin-right: 25px;
+    margin-bottom: 12px;
+}
+
+.phonecase{
+    position: absolute;
+    z-index: 2;
+    width: 17%;
+    height: 60vh;
+}
+
+.carousel-control-prev{
+    margin-left: -50px;
+}
+
+.carousel-control-next{
+    margin-right: -50px;
+}
+
+.carouselImg{
+    border-radius: 40px 40px;
+    height: 58vh;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    filter: invert(100%);
+}
+
+.parent{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.parent1{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 10px;
+}
+
+.parent2{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.mainText{
+    width: 55%;
+}
+
+.mainH2{
+    color: #ff5f2e;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.mainP{
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.links2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.storeLinks2{
+    text-decoration: none;
+    list-style-type: none;
+}
