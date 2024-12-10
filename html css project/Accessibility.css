@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2e69ff !important;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #2e69ff;
+}
+
+.pirateCoin{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -200px;
+    margin-right: 220px;
+}
+
+.h1{
+    position: absolute;
+    top: 80px;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+    background-image: url(squre\ logo.png);
+    background-repeat: no-repeat;
+    background-size: 450px;
+}
+
+.H1{
+    margin-bottom: -10px;
+    font-size: 95px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #2e69ff;
+}
+
+.H2{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.h1Rep{
+    color: #ff5f2e;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 90px;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    color: white;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+.right{
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.liLogos{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.uLogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+a{
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.contact{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+main{
+    width: 100%;
+    height: 260vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2e69ff;
+}
+
+.main{
+    width: 90%;
+    height: 260vh;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main2{
+    width: 800px;
+    height: 260vh;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.firstP{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #2e69ff;
+}
+
+.averageP{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.line{
+    width: 1200px;
+    border-bottom: #2e69ff solid 1px;
+    position: sticky;
+    margin-left: -200px;
+}
+
+.secondP{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #ff5f2e;
+}
+
+.thirdP{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.dottedPs{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-decoration: dotted;
+}
+
+.dottedPs2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-decoration: dotted;
+}
+
+footer{
+    width: 80%;
+    height: 60vh;
+    background-color: #2e69ff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 300px;
+    margin-top: 80px;
+}
+
+.containerrr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imptext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 20px;
+    background-image: url(squre\ logo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pirateCoin3{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+
+.HHH2{
+    text-decoration: none;
+    font-size: 45px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #2e69ff !important;
+}
+
+.h2Rep{
+    color: #ff5f2e !important;
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.linksss{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.justP{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.justP2{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.justUL{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 30px;
+    gap: 5px;
+}
+
+.contacts2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 160px;
+    height: 450px;
+}
+
+.contactUs{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 300px;
+}
+
+.Menu{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.liLogos22{
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+    color: white !important;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 450px;
+    height: 450px;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.register2{
+    width: 120px;
+}
+
+input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding-top: 50px;
+}
+
+textarea{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding-top: 50px;
+}
+
+::placeholder{
+    color: red;
+}
+
+#submit{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    padding-top: 0px !important;
+    width: 390px;
+    height: 40px;
+    border-radius: 50px;
+}

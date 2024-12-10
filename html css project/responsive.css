@@ -1,0 +1,87 @@
+@media screen and (max-width: 950px) {
+    .mainbg{
+        width: 100%;
+    }
+
+    .main{
+        height: 400vh;
+    }
+
+    .parent{
+        flex-direction: column;
+        height: 100vh;
+        gap: 150px;
+    }
+
+    .parent1{
+        height: 100vh;
+    }
+
+    .mainP{
+        font-size: 20px;
+    }
+
+    .mainH2{
+        font-size: 30px;
+    }
+
+    .rrs{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        
+    }
+
+    .circle{
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        background-color: #2e69ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .circleX{
+        width: 140px;
+        height: 140px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .revH2{
+        font-size: 25px;
+    }
+
+    .imgREV{
+        width: 100px;
+        height: 100px;
+    }
+
+    .H22{
+        font-size: 30px;
+    }
+
+    .P2{
+        font-size: 20px;
+    }
+
+    .islandd{
+        width: 200px;
+        height: 350px;
+    }
+
+    .parent2{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .images{
+        flex-direction: column;
+    }
+
+}

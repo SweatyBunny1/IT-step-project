@@ -2,10 +2,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
-    background-color: #2e69ff
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2e69ff !important;
+    overflow-x: hidden;
+}
+
+.nav2{
+    display: none;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    position: absolute;
+}
+
+.burger{
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    display: none;
+}
+
+.burgerLine{
+    background-color: black;
+    width: 45px;
+    height: 5px;
+    border-radius: 10px;
+}
+#checkB{
+    display: none;
 }
 
 header{
@@ -104,7 +143,7 @@ nav{
     border-radius: 100%;
 }
 
-ul{
+.uLogos{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,20 +169,21 @@ a{
 
 main{
     width: 100%;
-    height: 500vh;
+    height: 560vh;
     display: flex;
-    justify-content: center;
-    align-items: start;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
     background-color: #2e69ff;
 }
 
 .main{
-    border-top-left-radius: 50px 50px;
-    border-top-right-radius: 50px 50px;
     width: 90%;
-    height: 370vh;
+    height: 340vh;
     margin-top: 10px;
     background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 .mainbg{
@@ -233,7 +273,7 @@ main{
 
 .parent2{
     width: 50%;
-    height: 60vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -270,6 +310,8 @@ main{
 .storeLinks2{
     text-decoration: none;
     list-style-type: none;
+    width: 130px;
+    height: 40px;
 }
 
 #skull{
@@ -301,6 +343,9 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    background-image: url(bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .circle{
@@ -336,8 +381,9 @@ main{
 
 .container{
     display: flex;
-    justify-content: center;
-    align-items: end;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column-reverse;
 }
 
 .text{
@@ -367,7 +413,7 @@ main{
 
 .pictures{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     gap: 50px;
@@ -405,6 +451,346 @@ main{
 
 .line2{
     width: 100%;
-    margin-bottom: -320px;
+    height: 30vh;
+    background-image: url(inverted\ line.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.mainbg2{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr;
+    background-image: url(bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgtextcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 200px;
+}
+
+.imgtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgtext2{
+    width: 190px;
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.imgicon{
+    width: 200px;
+    height: 200px;
+}
+
+.line3{
+    width: 100%;
+    height: 12vh;
+    background-image: url(line.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainbg3{
+    width: 90%;
+    height: 90vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texts3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text3{
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #ff5f2e;
+}
+
+.text4{
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #2e69ff;
+}
+
+video{
+    width: 40%;
+    border-radius: 20px;
+}
+
+.containerIDK{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(line3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 100px;
+}
+
+.text5{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    flex-direction: column;
+}
+
+.PP2{
+    font-size: 25px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #2e69ff;
+}
+
+.PP3{
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #ff5f2e;
+}
+
+.links3{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.storeLinks3{
+    width: 130px;
+    height: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.ship{
+    margin-bottom: 100px;
+}
+
+footer{
+    width: 80%;
+    height: 60vh;
+    background-color: #2e69ff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 300px;
+}
+
+.containerrr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imptext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 20px;
+    background-image: url(squre\ logo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pirateCoin3{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+
+.HHH2{
+    text-decoration: none;
+    font-size: 45px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #2e69ff !important;
+}
+
+.h2Rep{
+    color: #ff5f2e !important;
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.linksss{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.justP{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.justP2{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.justUL{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 30px;
+    gap: 5px;
+}
+
+.contacts2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 160px;
+    height: 450px;
+}
+
+.contactUs{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 300px;
+}
+
+.Menu{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.liLogos22{
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+    color: white !important;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 450px;
+    height: 450px;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.register2{
+    width: 120px;
+}
+
+.register3{
+    width: 120px;
+    margin-left: 20px;
+}
+
+input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding-top: 50px;
+}
+
+textarea{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding-top: 50px;
+}
+
+::placeholder{
+    color: #51133d;
+}
+
+#submit{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    padding-top: 0px !important;
+    width: 390px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.Name{
+    
+}
+
+.Name2{
+    margin-left: 50px;
+}

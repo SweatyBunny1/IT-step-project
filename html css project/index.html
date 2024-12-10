@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
 </head>
 <body>
     
-    <header>
+    <header id="header">
 
         <div data-aos="fade-down" class="h1">
 
@@ -34,12 +35,12 @@
             
             <div class="right">
 
-                <ul>
+                <ul class="uLogos">
                     <li><a class="contact" href="#foot">Contact</a></li>
-                    <li class="liLogos"><a href="https://www.twitch.tv"><i class="fa-brands fa-twitch"></i></a></li>
-                    <li class="liLogos"><a href="https://www.facebook.com/wix"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li class="liLogos"><a href="https://discord.com"><i class="fa-brands fa-discord"></i></a></li>
-                    <li class="liLogos"><a href="https://www.youtube.com/user/Wix"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li class="liLogos"><a target="_blank" href="https://www.twitch.tv"><i class="fa-brands fa-twitch"></i></a></li>
+                    <li class="liLogos"><a target="_blank" href="https://www.facebook.com/wix"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="liLogos"><a target="_blank" href="https://discord.com"><i class="fa-brands fa-discord"></i></a></li>
+                    <li class="liLogos"><a target="_blank" href="https://www.youtube.com/user/Wix"><i class="fa-brands fa-youtube"></i></a></li>
                 </ul>
                 
             </div>
@@ -51,18 +52,17 @@
 
         <div class="main">
           <div class="mainbg">
-                <li class="storeLinks"><a href="https://apps.apple.com/us/app/spaces-follow-businesses/id1099748482"><img src="apple.png" alt="a"></a></li>
-                <li class="storeLinks"><a href="https://play.google.com/store/apps/details?id=com.wix.android&hl=en&gl=US"><img src="Google play.png" alt="b"></a></li>
+                <li data-aos="fade-down" class="storeLinks"><a target="_blank" href="https://apps.apple.com/us/app/spaces-follow-businesses/id1099748482"><img src="apple.png" alt="a"></a></li>
+                <li data-aos="fade-down" class="storeLinks"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.wix.android&hl=en&gl=US"><img src="Google play.png" alt="b"></a></li>
           </div>
 
           <div class="line"></div>
 
-          
           <div class="parent">
             <div class="parent1">
-              <img data-aos="fade-up" class="phonecase" src="phone case.png">
                 <div data-aos="fade-up" id="carouselExampleFade" class="carousel slide carousel-fade">
                     <div class="carousel-inner">
+                      <img data-aos="fade-up" class="phonecase" src="phone case.png">
                       <div class="carousel-item active">
                         <img src="carousel 1.png" class="carouselImg d-block w-100">
                       </div>
@@ -83,7 +83,8 @@
                     </button>
                 </div>
                 <img data-aos="fade-left" id="skull" src="./skull.png" alt="skull">
-              </div>
+              
+            </div>
               <div class="parent2">
                 <div class="mainText">
                   <h2 data-aos="fade-down" class="mainH2">Discover Pirate's Island</h2>
@@ -100,63 +101,61 @@
               </div>
               <div data-aos="fade-down" class="rrs">
                 <div class="container">
+                  <div class="textContainer">
+                    <div class="text">
+                      <h2>Zach Stallon</h2>
+                      <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
+                      <div class="stars">
+                        <img class="star" src="./star.png" alt="star">
+                        <img class="star" src="./star.png" alt="star">
+                        <img class="star" src="./star.png" alt="star">
+                        <img class="star" src="./star.png" alt="star">
+                        <img class="star" src="./star.png" alt="star">
+                      </div>
+                      <p>5/5 Rating</p>
+                    </div>
+                    </div>
                   <div class="circle">
-                    <div class="circleX circle1"><img src="./rev1.png"></div>
+                    <div class="circleX circle1"><img class="imgREV" src="./rev1.png"></div>
                   </div>
                 </div>
                 <div class="container">
+                  <div class="textContainer">
+                    <div class="text">
+                      <h2>Laura Branson</h2>
+                      <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</p>
+                      <div class="stars">
+                        <img class="star" src="./star.png" alt="star">
+                        <img class="star" src="./star.png" alt="star">
+                        <img class="star" src="./star.png" alt="star">
+                        <img class="star" src="./star.png" alt="star">
+                        <img class="star" src="./star.png" alt="star">
+                      </div>
+                      5/5 Rating
+                    </div>
+                    </div>
                   <div class="circle">
-                    <div class="circleX circle2"><img src="./rev2.png"></div>
+                    <div class="circleX circle2"><img class="imgREV" src="./rev2.png"></div>
                   </div>
                 </div>
                 <div class="container">
+                  <div class="textContainer">
+                    <div class="text">
+                      <h2>Joan West</h2>
+                      <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
+                      <div class="stars">
+                        <img class="star" src="./star.png" alt="star">
+                        <img class="star" src="./star.png" alt="star">
+                        <img class="star" src="./star.png" alt="star">
+                        <img class="star" src="./star.png" alt="star">
+                        <img class="star" src="./star.png" alt="star">
+                      </div>
+                      4/5 Rating
+                    </div>
+                    </div>
                   <div class="circle">
-                    <div class="circleX circle3"><img src="./rev3.png"></div>
+                    <div class="circleX circle3"><img class="imgREV" src="./rev3.png"></div>
                   </div>
-                </div>
-                <div class="textContainer">
-                <div class="text">
-                  <h2>Joan West</h2>
-                  <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
-                  <div class="stars">
-                    <img class="star" src="./star.png" alt="star">
-                    <img class="star" src="./star.png" alt="star">
-                    <img class="star" src="./star.png" alt="star">
-                    <img class="star" src="./star.png" alt="star">
-                    <img class="star" src="./star.png" alt="star">
-                  </div>
-                  4/5 Rating
-                </div>
-                </div>
-
-                <div class="textContainer">
-                <div class="text">
-                  <h2>Laura Branson</h2>
-                  <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</p>
-                  <div class="stars">
-                    <img class="star" src="./star.png" alt="star">
-                    <img class="star" src="./star.png" alt="star">
-                    <img class="star" src="./star.png" alt="star">
-                    <img class="star" src="./star.png" alt="star">
-                    <img class="star" src="./star.png" alt="star">
-                  </div>
-                  5/5 Rating
-                </div>
-                </div>
-
-                <div class="textContainer">
-                <div class="text">
-                  <h2>Zach Stallon</h2>
-                  <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”</p>
-                  <div class="stars">
-                    <img class="star" src="./star.png" alt="star">
-                    <img class="star" src="./star.png" alt="star">
-                    <img class="star" src="./star.png" alt="star">
-                    <img class="star" src="./star.png" alt="star">
-                    <img class="star" src="./star.png" alt="star">
-                  </div>
-                  <p>5/5 Rating</p>
-                </div>
                 </div>
                 </div>
                 <div data-aos="fade-down" class="pictures">
@@ -170,29 +169,163 @@
                   <img class="islandd" src="./island3.png" alt="island3">
                   </div>
                 </div>
-                <img class="line2" src="./inverted line.png">
+                </div>
               </div>
           </div>
         </div>
 
         <div class="mainbg2">
-          <div class="imgtext">
-            <img src="./sword.png" alt="sword">
+
+          <div class="line2"></div>
+
+          <div class="imgtextcont">
+
+          <div data-aos="fade-down" class="imgtext">
+            <img class="imgicon" src="./sword.png" alt="sword">
+            <h2 class="imgtext2">Battle Your Friends</h2>
           </div>
 
-          <div class="imgtext">
-            <img src="./map.png" alt="map">
+          <div data-aos="fade-down" class="imgtext">
+            <img class="imgicon" src="./map.png" alt="map">
+            <h2 class="imgtext2">Conquer 40+ Unique Islands</h2>
           </div>
 
-          <div class="imgtext">
-            <img>
+          <div data-aos="fade-down" class="imgtext">
+            <img class="imgicon" src="./hat.png" alt="hat">
+            <h2 class="imgtext2">Join the Mighty Pirate Community</h2>
           </div>
+
+          </div>
+
+            <div class="line3"></div>
 
         </div>
 
+        <div class="mainbg3">
+
+          <div class="texts3">
+            <h2 data-aos="fade-down" class="text3">Rule the High Seas</h2>
+            <p data-aos="fade-down" class="text4">Official Game Trailer</p>
+          </div>
+
+          <video autoplay loop muted src="https://video.wixstatic.com/video/c837a6_a00352170574407099c5f2045dde8944/480p/mp4/file.mp4"></video>
+
+        </div>
+
+        <div class="containerIDK">
+
+          <div class="text5">
+
+            <p class="PP2" data-aos="fade-down">Available for Free</p>
+            <p class="PP3" data-aos="fade-down">Play Pirate's Island</p>
+
+            <div data-aos="fade-down" class="links3">
+
+              <li class="storeLinks2"><a target="_blank" href="https://apps.apple.com/us/app/spaces-follow-businesses/id1099748482"><img src="apple.png"></a></li>
+              <li class="storeLinks2"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.wix.android&hl=en&gl=US"><img src="Google play.png"></a></li>
+
+            </div>
+
+            </div>
+
+            <img class="ship" data-aos="fade-left" src="./ship.png" alt="ship">
+
+          </div>
+
     </main>
 
-    <footer id="foot"></footer>
+    <footer id="foot">
+
+      <div class="containerrr">
+
+        <div class="imptext">
+
+        <a class="HHH2" href="#header">Pirate's</a>
+        <a class="h2Rep" href="#header">Island</a>
+        <img class="pirateCoin3" src="Pirate Coin.png" alt="Pirate Coin">
+
+        </div>
+
+        <div class="linksss">
+
+          <p class="justP">Made to Be Played</p>
+            <ul class="justUL">
+              <li class="liLogos"><a target="_blank" href="https://www.twitch.tv"><i class="fa-brands fa-twitch"></i></a></li>
+              <li class="liLogos"><a target="_blank" href="https://www.facebook.com/wix"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li class="liLogos"><a target="_blank" href="https://discord.com"><i class="fa-brands fa-discord"></i></a></li>
+              <li class="liLogos"><a target="_blank" href="https://www.youtube.com/user/Wix"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+
+        </div>
+
+      </div>
+
+      <div class="contacts2">
+
+        <div class="ContactUs">
+
+          <h2 class="justP">Contact Us</h2>
+
+          <p class="justP2">123-456-7890</p>
+
+          <li class="liLogos22"><a class="liLogos22" target="_blank" href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=info@mysite.com">info@mysite.com</a></li>
+
+          <p class="justP2">500 Terry Francine Street San Francisco, CA 94158</p>
+
+        </div>
+
+        <div class="Menu">
+
+          <h2 class="justP">Menu</h2>
+
+            <a class="justUL2 liLogos22" href="#header">Home</a>
+            <a class="justUL2 liLogos22" target="_blank" href="./Accessibility.html">Accessibility</a>
+            <a class="justUL2 liLogos22" target="_blank" href="./Terms & Conditions.html">Terms & Conditions</a>
+            <a class="justUL2 liLogos22" target="_blank" href="./Privacy Policy.html">Privacy Policy</a>
+            <a class="justUL2 liLogos22" target="_blank" href="./Shipping Policy.html">Shipping Policy</a>
+            <a class="justUL2 liLogos22" target="_blank" href="./Refund Policy.html">Refund Policy</a>
+          
+        </div>
+
+      </div>
+
+      <div class="signup">
+
+        <form class="register" action="./index.html">
+
+          <h2 class="justP">Let's Talk</h2>
+
+          <div class="names">
+        <label for="Name" class="Name"><b>First Name *</b></label>
+        <label for="Name" class="Name2"><b>Last Name *</b></label>
+
+        <br>
+
+        <input class="register2" type="Name" id="fName" name="Name" placeholder="Enter first name." required>
+        <input class="register3" type="Name" id="lName" name="Name" placeholder="Enter last name." required>
+          </div>
+        <div class="subjects">
+        <label for="email" class="Name"><b>Email *</b></label>
+        <label for="subject" class="Name2"><b>Subject</b></label>
+
+        <br>
+
+        <input class="register2" type="email" id="email" name="email" placeholder="Enter an email" required>
+        <input class="register3" type="text" id="subject" name="Subject">
+        
+        </div>
+
+        <label for="message"><b>Leave us a message</b></label>  
+        <textarea id="email" name="message" rows="4" cols="50"></textarea>
+
+        <label for="submit"><b></b></label>  
+        <input type="submit" id="submit" name="email">
+
+      </form>
+
+      </div>
+
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
